@@ -2,3 +2,24 @@ html, body{
     background-color: #000;
     color:#fff;
 }
+/*변수 설정*/
+:root {
+    /*색상*/
+	--point-color: #e8007e; 
+    --bg-box-color: #2C2C2C;
+    /* 폰트사이즈 */
+    --font-size-small: 16px;
+    --font-size-medium: 20px; 
+    --font-size-large: 24px;
+    --font-size-extra-large: 32px;
+}
+
+h1{
+    font-size: var(--font-size-extra-large);
+}
+h2{
+    font-size: var(--font-size-large);
+}
+p{
+    font-size: var(--font-size-medium);
+}
