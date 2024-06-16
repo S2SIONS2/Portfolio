@@ -7,6 +7,7 @@
 .About .profile{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 .About .imgArea{
     background-color:#2d2d2d;
@@ -53,6 +54,8 @@
 .About ul li{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .About ul li h2{
     margin:5px 0px;
@@ -73,4 +76,25 @@
 .About .interview .box{
     line-height: 1.8;
     margin-bottom: 20px;
+}
+
+/* 모바일 */
+@media screen and (max-width: 767px) {
+    .About{
+        padding:100px 50px;
+    }
+    h2{
+        font-size: var(--mobile-font-size-large) !important;
+    }
+    p{
+        font-size: var(--mobile-font-size-medium) !important;
+    }
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .About{
+        padding:100px 80px;
+    }
+    
 }

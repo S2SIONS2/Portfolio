@@ -47,3 +47,71 @@
     border-radius: 5px;
     display: none;
 }
+
+/*모바일 웹*/
+@media screen and (max-width: 479px) {
+    .Contact{
+        padding:60px 20px;
+    }
+    .Contact button{
+        display: none;
+    }
+    h1{
+        font-size: var(--mobile-font-size-large) !important;
+    }
+    h2{
+        font-size: var(--mobile-font-size-medium) !important;
+    }
+    p{
+        font-size: var(--mobile-font-size-small) !important;
+    }
+    .Contact .svg-inline--fa{
+        display: none;
+    }
+    .Contact .contact_wrap{
+        gap: 20px;
+        padding: 20px;
+    }
+    .logo{
+        margin-right: 10px;
+    }
+}
+
+/* 최소화 웹 */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .Contact{
+        padding:100px 50px;
+    }
+    h1{
+        font-size: var(--mobile-font-size-extra-large) !important;
+    }
+    h2{
+        font-size: var(--mobile-font-size-large) !important;
+    }
+    p{
+        font-size: var(--mobile-font-size-medium) !important;
+    }
+    .Contact .svg-inline--fa{
+        display: none;
+    }
+    .Contact .contact_wrap{
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+/* 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Contact{
+        padding:100px 80px;
+    }
+    .svg-inline--fa{
+        font-size: 2rem !important;
+    }
+    h1{
+        font-size: var(--tablet-font-size-extra-large) !important;
+    }
+    .svg-inline--fa{
+        font-size: 1.8rem !important;
+    }
+}

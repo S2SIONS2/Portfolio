@@ -12,6 +12,18 @@ html, body{
     --font-size-medium: 20px; 
     --font-size-large: 24px;
     --font-size-extra-large: 32px;
+
+    /* 태블릿 폰트 사이즈*/
+    --tablet-font-size-small: 14px;
+    --tablet-font-size-midium: 16px;
+    --tablet-font-size-large: 20px;
+    --tablet-font-size-extra-large: 24px;
+
+    /*모바일 폰트 사이즈*/
+    --mobile-font-size-small: 12px;
+    --mobile-font-size-midium: 14px;
+    --mobile-font-size-large: 18px;
+    --mobile-font-size-extra-large: 24px;
 }
 
 h1{

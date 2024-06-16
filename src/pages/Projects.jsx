@@ -8,7 +8,7 @@ const Projects = () => {
             <div className='projects_wrap'>
                 <div className='project_card'>
                     <div className='imgArea'>
-                        <div style={{background: `url(${tagWords}) no-repeat center/cover`, width:'100%', height: '100%', display: 'block'}}></div>
+                        <div style={{background: `url(${tagWords}) no-repeat center/contain #F9F9E0`, width:'100%', height: '100%', display: 'block'}}></div>
                     </div>
                     <div className='infoArea'>
                         <div className='project_title'>
